@@ -1,0 +1,101 @@
+.hero {
+
+    height: 800px;
+    background-image: url('./Images/Final.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+#search {
+    border-radius: 180px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100px;
+
+
+
+
+}
+
+/*
+.navbar-nav > .active > a { 
+    background-color:gray ; 
+    border-radius: 20px;
+    
+    
+} */
+
+.HeroTitle {
+
+    display: flex;
+    flex-direction: column;
+    margin: 100px 110px auto;
+    border: 5px solid white;
+    width: 500px;
+    padding: 80px;
+    height: 400px;
+    background: rgba(226, 49, 49, 0.5);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(9.5px);
+    -webkit-backdrop-filter: blur(9.5px);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+
+
+
+
+}
+
+.Heading {
+    font-size: 50px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+
+}
+
+.Heading2 {
+
+    text-transform: uppercase;
+    color: white;
+}
+
+.text {
+    color: white;
+    text-align: center;
+    font-weight: 500;
+}
+
+.button,
+.button-2 {
+
+    
+    width: 150px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-block;
+
+}
+
+.button {
+    background-color: transparent;
+    border: 3px solid white;
+    border-radius: 50px;
+    -webkit-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+    color: white;
+
+
+}
